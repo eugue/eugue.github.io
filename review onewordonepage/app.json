@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/self/self",
+    "pages/search/search",
+    "pages/remember/cet4/cet4",
+    "pages/remember/cet6/cet6",
+    "pages/summarize/summarize",
+    "pages/popup/popup",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "背单词",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/home_HL.png",
+        "text": "背单词"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "pages/img/search.png",
+        "selectedIconPath": "pages/img/search_HL.png",
+        "text": "查单词"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#2E8B57"
+  },
+  "sitemapLocation": "sitemap.json"
+}
